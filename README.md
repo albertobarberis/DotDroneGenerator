@@ -1,7 +1,7 @@
 # DotDroneGenerator
 workshop for highSCORE 2021
 
-![alt text](https://github.com/albertobarberis/DotDroneGenerator/image.png)
+![alt text](https://github.com/albertobarberis/DotDroneGenerator/blob/master/image.png)
 
  Dot Drone Generator is a drone generator which allows you to create synthetic textures and chords directly on your browser. 
  
