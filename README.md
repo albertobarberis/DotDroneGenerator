@@ -1,5 +1,8 @@
 # DotDroneGenerator
-workshop for highSCORE 2021
+
+workshop for highSCORE 2021 (https://www.highscorefestival.com/)
+
+by Alberto Barberis (http://www.albertobarberis.it/)
 
 ![alt text](https://github.com/albertobarberis/DotDroneGenerator/blob/main/dotimage.png)
 
