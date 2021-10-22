@@ -1,0 +1,61 @@
+<!-- WEB AUDIO highSCORE 2021-->
+
+<!DOCTYPE html> <!-- declaration defines this document to be HTML5 -->
+
+<html lang="en"> <!-- html tag is the root element of an HTML page -->
+
+  <head> <!-- head tag contains meta information about the document -->
+
+    <link rel="stylesheet" type="text/css" href="css/hs2021.css"> <!-- include css file -->
+    
+    <title> 
+      web audio hS2021 
+    </title> <!-- title tag specifies a title for the document -->
+    
+    <meta charset="utf-8">
+
+    <!-- load the libraries we need / old versions that does not give us problem of security -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script> -->
+    <script src="lib/p5.min.js"></script>
+
+    <!-- load the javascript file -->
+    <script src="js/hs2021.js"></script>
+  
+  </head>
+
+  <body> <!-- body tag contains the visible page content -->
+    
+    <h1> <!-- h1 tag defines a large heading -->
+      Dot Drone Generator  
+    </h1>
+    
+    <p> <!-- p tag defines a defines a paragraph -->
+      <a href="https://www.highscorefestival.com/" target="_blank" > highSCORE Festival 2021 </a> 
+      | <a href="http://www.albertobarberis.it/" target="_blank" > Alberto Barberis </a>
+    </p>
+
+    <div id="infoText"> <!-- div tag defines a division or a section in an HTML document; it is a general element -->
+
+      Dot Drone Generator is a drone generator which allows you to create synthetic textures and chords directly on your browser. 
+      <br><br>
+      Click on the window to generate a Dot, which has a sinusoidal wave with tremolo. 
+      <br><br>
+      The y-axis represents the amplitude range. The amplitude is modulated by a  triangular LFO (Low Frequency Oscillator), with a random frequency. 
+      <br><br>
+      The x-axis represents the frequency range. 
+      <br><br>
+      Press 'L' and then Click+Drag from an existing Dot to an other one, to link two sinusoids and create a Frequency Modulation (FM synthesis) between them, where the first Dot becomes (in addition) the modulator of the second (carrier). 
+      <br><br>
+      It is possible to create a chain of modulation: each carrier can become a modulator. This allows you to create complex spectra with a lot of sidebands, to the point of creating very noisy sounds! 
+      <br><br>
+      Click on an existing circle to delete it or to delete the modulation chain of which it is part.      
+
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
